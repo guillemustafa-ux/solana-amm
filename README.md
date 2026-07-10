@@ -53,14 +53,21 @@ Completa la escalera DeFi del track Solana:
 
 ## Evidencia en devnet
 
-| Qué | Valor |
+Deploy + demo end-to-end corridos el 2026-07-10 contra devnet (mints y pool
+reales, firmas verificables en el explorer):
+
+| Qué | Firma |
 |---|---|
 | Program ID | `ExDFnNBfP6E14ZitQbXQdxqTQvcBbxEcjyVJJ8b8J6j3` |
-| Deploy | _(pendiente)_ |
-| `initialize_pool` | _(pendiente)_ |
-| `add_liquidity` | _(pendiente)_ |
-| `swap` A→B | _(pendiente)_ |
-| `remove_liquidity` | _(pendiente)_ |
+| Deploy | [`42Z6XWUT…ALTiwe`](https://explorer.solana.com/tx/42Z6XWUT34Gdrmc98wsNgBv22EN6q7b2kLNdeSMbjPGh8gPHXVifkTn11q4JjmeUahpSy5UcG23iDL4dwMALTiwe?cluster=devnet) |
+| `initialize_pool` | [`56FYVMeC…EGLhe2`](https://explorer.solana.com/tx/56FYVMeCJscVqqxSu4c3DYdFdFKx2YQ8vRZDQMeSVehm1GJtoRDpFjQXmaZemmZKjzNPi5p8EUAjzsxbsDEGLhe2?cluster=devnet) |
+| `add_liquidity` | [`DXgTVoHm…N1yxUL`](https://explorer.solana.com/tx/DXgTVoHmzyXojdr2yjkUKn8dXSZmZeJPFHYaYWrXectnLCDhz3GTdfbxMpnWsjXwVgTso5uxzuQWMC9HiN1yxUL?cluster=devnet) |
+| `swap` A→B | [`48gmdpMf…ReQEViv`](https://explorer.solana.com/tx/48gmdpMf3eHWpvHDC4BDtqYJXashhXvw6eMxPh7yjpCjdZNUuEztB7F3SwqSJYRDCxzqTmgR6KtYUMchfReQEViv?cluster=devnet) |
+| `remove_liquidity` | [`5YjJrecU…c4gwmnd`](https://explorer.solana.com/tx/5YjJrecU2QwVY26su2cgDbVS2VGTfMKw5kBbcDbauNVK5pmy2CDv8aDt3dcsNaP1evqQC4bhrC8SD7kNZc4gwmnd?cluster=devnet) |
+
+Números del swap de la demo (fee 0.30%, invariante x·y=k): entraron
+`10_000_000` de token A a un pool `100M/25M` → salieron `2_266_527` de token B;
+reservas finales `110M / 22_733_473`. Pool: `6mAkM2xZJU8bg9yJq9QKpnPUdi82xJctyXB5suo2x5F1`.
 
 Explorer: https://explorer.solana.com/address/ExDFnNBfP6E14ZitQbXQdxqTQvcBbxEcjyVJJ8b8J6j3?cluster=devnet
 
